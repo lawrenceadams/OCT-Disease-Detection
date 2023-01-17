@@ -1,6 +1,8 @@
 # macOS specific ignores
 
-.DS_Store/
+.DS_Store
+AROI_labelled_scans/
+OCTID/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
