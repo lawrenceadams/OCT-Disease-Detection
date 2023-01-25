@@ -218,9 +218,5 @@ def get_class_f1_score(y_true, y_pred, class_label) -> np.float64:
 
     Returns float of the F1 score (binary)
     """
-    true = np.where(
-        y_true.flatten() != class_label, 0, 1
-    )  # target class -> 1, not target -> 0
-    predicted = np.where(y_pred.flatten() != class_label, 0, 1)
 
-    return f1_score(true, predicted)
+    return f1_score(y_true, y_pred, labels=[class_label], average=None)
