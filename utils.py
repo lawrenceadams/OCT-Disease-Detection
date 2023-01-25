@@ -30,7 +30,7 @@ def num_to_colors(mask, height, width):
             elif mask[i, j] == 2:
                 col_mask[i, j] = yellow
             elif mask[i, j] == 3:
-                col_mask[i, j] = white
+                col_mask[i, j] = green
             elif mask[i, j] == 4:
                 col_mask[i, j] = blue
             elif mask[i, j] == 5:
@@ -38,7 +38,7 @@ def num_to_colors(mask, height, width):
             elif mask[i, j] == 6:
                 col_mask[i, j] = pink
             elif mask[i, j] == 7:
-                col_mask[i, j] = green
+                col_mask[i, j] = white
 
     return col_mask
 
