@@ -11,3 +11,6 @@ Project essentially takes part with two models:
    1. OCT Image Segmentation (into _Intra-retinal fluid_ and _Sub-retinal fluid_)
    2. Disease detection (using segmented data from 1.)
    
+## Papers
+   1. [Annotated retinal optical coherence tomography images (AROI) database for joint retinal layer and fluid segmentation](https://www.tandfonline.com/doi/figure/10.1080/00051144.2021.1973298)
+   2. [OCTID: Optical Coherence Tomography Image Database](https://doi.org/10.48550/arXiv.1812.07056)
